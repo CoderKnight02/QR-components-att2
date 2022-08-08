@@ -1,0 +1,72 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Outfit', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: calc(100vh - 1px);
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+
+.card{
+
+    text-align: center;
+
+    width: 300px;
+    height: 460px;
+    padding: 15px;
+
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.card h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.card p{
+    color: hsl(220, 15%, 55%);
+}
